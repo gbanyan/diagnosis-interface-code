@@ -27,7 +27,7 @@ Run from the repository root. Figures are written to `figures/` as PDF and 300-d
 
 ## Citation
 
-If you use this code, please cite the article and the archived release (Zenodo DOI to be added).
+If you use this code, please cite the article and the archived release (Zenodo, https://doi.org/10.5281/zenodo.24390049, which resolves to the latest version).
 
 ## License
 
