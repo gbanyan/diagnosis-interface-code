@@ -7,7 +7,7 @@ the two AUROC estimates. The analytic standard deviation is checked by simulatio
 binormal scores.
 
 Decision rule being powered (Appendix 3, section 5):
-  equivalence  - one-sided: upper 95% confidence bound of the class-ceiling deficit < delta,
+  equivalence  - one-sided: upper 95% confidence bound of the cognitive-ceiling deficit < delta,
                  power 80% when the true difference is 0 (the deficit cannot be negative
                  in the population, so equivalence is judged against the upper bound only);
   superiority  - two-sided test of zero at Holm-adjusted alpha (0.05/3 at the first step
