@@ -4,12 +4,12 @@
   "description": "Scripts that generate the schematic Figures 1 and 2 and Supplementary Figure S1, and the sample-size calculation with its simulation check, for the Viewpoint by Huang and Lu (JMIR Medical Informatics, manuscript 106804, under review). The figures are schematic and contain no measured data.",
   "creators": [
     {
-      "name": "Huang, Jing-Rung",
+      "name": "Huang, Jing Rung",
       "affiliation": "Department of Computer Science and Information Engineering, National Cheng Kung University",
       "orcid": "0000-0003-4776-3550"
     },
     {
-      "name": "Lu, Wen-Hsiang",
+      "name": "Lu, Wen Hsiang",
       "affiliation": "Department of Computer Science and Information Engineering, National Cheng Kung University",
       "orcid": "0009-0002-5149-6790"
     }

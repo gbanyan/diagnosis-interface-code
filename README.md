@@ -1,6 +1,6 @@
 # Figure and sample-size code: "Should Clinical Foundation Models Reason Through Disease Labels?"
 
-Code accompanying the Viewpoint *Should Clinical Foundation Models Reason Through Disease Labels? A Falsifiable Case for Diagnosis as an Interface* (Huang J-R, Lu W-H; JMIR Medical Informatics, manuscript 106804, under review).
+Code accompanying the Viewpoint *Should Clinical Foundation Models Reason Through Disease Labels? A Falsifiable Case for Diagnosis as an Interface* (Huang JR, Lu WH; JMIR Medical Informatics, manuscript 106804, under review).
 
 All figures are schematic. They illustrate the form of the argument and contain no measured data.
 
