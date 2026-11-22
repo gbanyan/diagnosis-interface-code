@@ -134,8 +134,7 @@ ax.text(2.55, 0.62,
         fontsize=7.8, color="#4a235a", ha="left", va="top",
         bbox=dict(boxstyle="round,pad=0.35", fc="#f5eef8", ec="#8e44ad", lw=0.7))
 
-ax.text(dmax, 0.04, "Schematic for a control-layer target; positions are illustrative, not measured.",
-        fontsize=6.8, color="#7f8c8d", ha="right", va="bottom", style="italic")
+# in-image note and title removed (2026-11-23): JMIR keeps notes and titles out of figure images; the caption carries them
 
 ax.set_xlim(0, dmax)
 ax.set_ylim(0, R_star + 0.45)
@@ -144,8 +143,6 @@ ax.set_xlabel(r"Rate  $I(X;Z)$: information the representation keeps about the p
 ax.set_ylabel(r"Relevance  $I(Z;Y)$: information about target $Y$", fontsize=9)
 for s in ["top", "right"]:
     ax.spines[s].set_visible(False)
-ax.set_title("Disease label, subtypes, and an unrestricted representation on the information curves",
-             fontsize=10.2, pad=12, loc="left", fontweight="bold")
 
 plt.tight_layout()
 for ext in ["pdf", "png"]:

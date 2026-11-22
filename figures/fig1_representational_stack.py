@@ -36,7 +36,7 @@ ys = [0.84, 0.665, 0.49, 0.315, 0.14]
 # ---------------- LEFT: current medicine ----------------
 LX = 0.185
 ax.text(LX, 0.965, "Current medicine", ha="center", fontsize=12, fontweight="bold")
-ax.text(LX, 0.922, "every layer built on the disease label", ha="center", fontsize=8.0, color=RED, style="italic")
+ax.text(LX, 0.922, "layers largely organized around the disease label", ha="center", fontsize=8.0, color=RED, style="italic")
 box(ax, LX, ys[0], W, H, "Observation\n(signs · labs · imaging · omics)", "#f4f6f7", GREY, fs=8.0)
 box(ax, LX, ys[1], W, H, "Disease label", "#fdecea", RED, tc=RED, fs=10.5, lw=2.0, weight="bold")
 box(ax, LX, ys[2], W, H, "Reasoning", "#f4f6f7", GREY)
@@ -82,11 +82,7 @@ box(ax, IX, ys[4] - 0.002, IW, 0.082, "clinicians · payers ·\nregistries", "#f
 
 # divider + footing
 ax.plot([0.345, 0.345], [0.05, 0.90], ls=(0, (2, 3)), lw=0.9, color="#cfd6dc", zorder=1)
-ax.text(0.5, 0.032,
-        "The thesis in one image: today the whole stack — reasoning, trials, guidelines — is built on the disease label (left).\n"
-        "With foundation models it can run on a latent substrate, and diagnosis becomes a read-out interface (right); whether evidence and guidelines\n"
-        "follow is a further question raised, not settled here. The representation medicine reasons over (internal) separates from the one it communicates in (external).",
-        ha="center", va="center", fontsize=8.0, color="#34495e", style="italic")
+# footer note removed (2026-11-23): JMIR keeps notes out of figure images; the caption carries them
 
 plt.tight_layout()
 for ext in ["pdf", "png"]:
